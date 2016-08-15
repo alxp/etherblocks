@@ -400,24 +400,27 @@ void LegoStruct::saveToFile( char * fileName ) {
 }
 
 LegoStruct * loadFromFile( char * fileName ) {
-  ifstream inLegoFile( fileName, ios::in );
-  /* Get the dimensions of the structure and create the LegoStruct object.
-   */
   int height, length, width, layer, x, y, color;
-  string blockTypeStr;
-  inLegoFile >> height >> length >> width;
-  LegoStruct * lsPtr = new LegoStruct( height, length, width );
-  while ( ! inLegoFile.eof() ) {
-    /* Any other block types besides GenericBlock that are created need to be added
-     * to here.
+  LegoStruct * lsPtr = new LegoStruct( 20, 50, 50 );
+  if (ifstream(fileName)) {
+    ifstream inLegoFile( fileName, ios::in);
+    /* Get the dimensions of the structure and create the LegoStruct object.
      */
-    inLegoFile >> blockTypeStr;
-    if ( blockTypeStr.compare( "GenericBlock") == 0 ) {
-      inLegoFile  >> length >> width >> color >> layer >> x >> y;
-      lsPtr->addBlock( new GenericBlock( length, width, color, layer, x, y ), x, y );
+    string blockTypeStr;
+    inLegoFile >> height >> length >> width;
+    LegoStruct * lsPtr = new LegoStruct( height, length, width );
+    while ( ! inLegoFile.eof() ) {
+      /* Any other block types besides GenericBlock that are created need to be added
+       * to here.
+       */
+      inLegoFile >> blockTypeStr;
+      if ( blockTypeStr.compare( "GenericBlock") == 0 ) {
+        inLegoFile  >> length >> width >> color >> layer >> x >> y;
+        lsPtr->addBlock( new GenericBlock( length, width, color, layer, x, y ), x, y );
+      }
+      blockTypeStr = "";
     }
-    blockTypeStr = "";
   }
-
+  
   return lsPtr;
 }

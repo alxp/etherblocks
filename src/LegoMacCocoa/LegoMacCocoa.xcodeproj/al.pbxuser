@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 61EE15720E1DFDD0003646D3 /* LegoMacCocoa */;
+		activeTarget = 8D1107260486CEB800E47090 /* LegoMacCocoa */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* LegoMacCocoa */,
+		);
+		breakpoints = (
+			61EE15E80E1E02CA003646D3 /* myLego.cpp:443 */,
+		);
+		codeSenseManager = 61EE15810E1DFDDB003646D3 /* Code sense */;
+		executables = (
+			61EE15720E1DFDD0003646D3 /* LegoMacCocoa */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					525,
+					276,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					611,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					571,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 236846544;
+			PBXWorkspaceStateSaveDate = 236846544;
+		};
+		perUserProjectItems = {
+			61EE15B40E1DFF78003646D3 /* PBXTextBookmark */ = 61EE15B40E1DFF78003646D3 /* PBXTextBookmark */;
+			61EE15BA0E1DFFD2003646D3 /* PBXTextBookmark */ = 61EE15BA0E1DFFD2003646D3 /* PBXTextBookmark */;
+			61EE15BE0E1E001B003646D3 /* PBXTextBookmark */ = 61EE15BE0E1E001B003646D3 /* PBXTextBookmark */;
+			61EE15C00E1E0028003646D3 /* PBXTextBookmark */ = 61EE15C00E1E0028003646D3 /* PBXTextBookmark */;
+			61EE15C20E1E0039003646D3 /* PBXTextBookmark */ = 61EE15C20E1E0039003646D3 /* PBXTextBookmark */;
+			61EE15C50E1E0054003646D3 /* PBXTextBookmark */ = 61EE15C50E1E0054003646D3 /* PBXTextBookmark */;
+			61EE15C80E1E0054003646D3 /* PBXTextBookmark */ = 61EE15C80E1E0054003646D3 /* PBXTextBookmark */;
+			61EE15CB0E1E0054003646D3 /* PBXTextBookmark */ = 61EE15CB0E1E0054003646D3 /* PBXTextBookmark */;
+			61EE15CE0E1E0054003646D3 /* PBXTextBookmark */ = 61EE15CE0E1E0054003646D3 /* PBXTextBookmark */;
+			61EE15D60E1E019A003646D3 /* PBXTextBookmark */ = 61EE15D60E1E019A003646D3 /* PBXTextBookmark */;
+			61EE15D70E1E019A003646D3 /* PBXTextBookmark */ = 61EE15D70E1E019A003646D3 /* PBXTextBookmark */;
+			61EE15D80E1E019A003646D3 /* PBXTextBookmark */ = 61EE15D80E1E019A003646D3 /* PBXTextBookmark */;
+			61EE15D90E1E019A003646D3 /* PBXTextBookmark */ = 61EE15D90E1E019A003646D3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 61EE15800E1DFDDB003646D3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	61EE15720E1DFDD0003646D3 /* LegoMacCocoa */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LegoMacCocoa;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	61EE15800E1DFDDB003646D3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	61EE15810E1DFDDB003646D3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	61EE15830E1DFE0F003646D3 /* colors.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 756}}";
+			sepNavSelRange = "{49, 0}";
+			sepNavVisRange = "{0, 1025}";
+		};
+	};
+	61EE15870E1DFE0F003646D3 /* utilityFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 504}}";
+			sepNavSelRange = "{182, 0}";
+			sepNavVisRange = "{0, 624}";
+		};
+	};
+	61EE15880E1DFE0F003646D3 /* glpoint.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 407}}";
+			sepNavSelRange = "{14, 0}";
+			sepNavVisRange = "{0, 104}";
+		};
+	};
+	61EE15890E1DFE0F003646D3 /* myLego.cpp */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{10331, 579}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 10914}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 6202}}";
+			sepNavSelRange = "{2201, 0}";
+			sepNavVisRange = "{1656, 833}";
+			sepNavWindowFrame = "{{245, 255}, {750, 558}}";
+		};
+	};
+	61EE158B0E1DFE0F003646D3 /* lego.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 672}}";
+			sepNavSelRange = "{14, 0}";
+			sepNavVisRange = "{0, 1202}";
+		};
+	};
+	61EE15B40E1DFF78003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: GL/gl.h: No such file or directory";
+		fRef = 61EE15870E1DFE0F003646D3 /* utilityFuncs.h */;
+		rLen = 1;
+		rLoc = 7;
+		rType = 1;
+	};
+	61EE15BA0E1DFFD2003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EE15870E1DFE0F003646D3 /* utilityFuncs.h */;
+		name = "utilityFuncs.h: 8";
+		rLen = 0;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 652;
+		vrLoc = 0;
+	};
+	61EE15BE0E1E001B003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: GL/gl.h: No such file or directory";
+		fRef = 61EE15830E1DFE0F003646D3 /* colors.h */;
+		rLen = 1;
+		rLoc = 3;
+		rType = 1;
+	};
+	61EE15C00E1E0028003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: GL/gl.h: No such file or directory";
+		fRef = 61EE158B0E1DFE0F003646D3 /* lego.cpp */;
+		rLen = 1;
+		rLoc = 0;
+		rType = 1;
+	};
+	61EE15C20E1E0039003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: GL/gl.h: No such file or directory";
+		fRef = 61EE15880E1DFE0F003646D3 /* glpoint.h */;
+		rLen = 1;
+		rLoc = 0;
+		rType = 1;
+	};
+	61EE15C50E1E0054003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EE15870E1DFE0F003646D3 /* utilityFuncs.h */;
+		name = "utilityFuncs.h: 8";
+		rLen = 0;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 0;
+	};
+	61EE15C80E1E0054003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EE15830E1DFE0F003646D3 /* colors.h */;
+		name = "colors.h: 4";
+		rLen = 0;
+		rLoc = 49;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 0;
+	};
+	61EE15CB0E1E0054003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EE158B0E1DFE0F003646D3 /* lego.cpp */;
+		name = "lego.cpp: 1";
+		rLen = 0;
+		rLoc = 14;
+		rType = 0;
+		vrLen = 1250;
+		vrLoc = 0;
+	};
+	61EE15CE0E1E0054003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EE15880E1DFE0F003646D3 /* glpoint.h */;
+		name = "glpoint.h: 1";
+		rLen = 0;
+		rLoc = 14;
+		rType = 0;
+		vrLen = 104;
+		vrLoc = 0;
+	};
+	61EE15D60E1E019A003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EE15870E1DFE0F003646D3 /* utilityFuncs.h */;
+		name = "utilityFuncs.h: 8";
+		rLen = 0;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 624;
+		vrLoc = 0;
+	};
+	61EE15D70E1E019A003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EE15830E1DFE0F003646D3 /* colors.h */;
+		name = "colors.h: 4";
+		rLen = 0;
+		rLoc = 49;
+		rType = 0;
+		vrLen = 1025;
+		vrLoc = 0;
+	};
+	61EE15D80E1E019A003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EE158B0E1DFE0F003646D3 /* lego.cpp */;
+		name = "lego.cpp: 1";
+		rLen = 0;
+		rLoc = 14;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 0;
+	};
+	61EE15D90E1E019A003646D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61EE15880E1DFE0F003646D3 /* glpoint.h */;
+		name = "glpoint.h: 1";
+		rLen = 0;
+		rLoc = 14;
+		rType = 0;
+		vrLen = 104;
+		vrLoc = 0;
+	};
+	61EE15E80E1E02CA003646D3 /* myLego.cpp:443 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 61EE15890E1DFE0F003646D3 /* myLego.cpp */;
+		functionName = "main(int argc, char** argv)";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 443;
+		location = LegoMacCocoa;
+		modificationTime = 236847831.646541;
+		state = 1;
+	};
+	8D1107260486CEB800E47090 /* LegoMacCocoa */ = {
+		activeExec = 0;
+		executables = (
+			61EE15720E1DFDD0003646D3 /* LegoMacCocoa */,
+		);
+	};
+}
